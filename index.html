@@ -5,28 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DelOlivo</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>  
-<body class="index">
+<body class="index container-fluid row col-12">
     <header class="indexHeader">
         <h1>"Nuestra experiencia avala un producto de calidad y excelencia"</h1>
     </header>
-    <nav class="indexNav">
-        <ul>
-            <li><a href="./index.html">INICIO</a></li>
-            <li><a href="./pages/ubicacion.html">UBICACION</a></li>
-            <li><a href="./pages/producto.html">PRODUCTO</a></li>
-            <li><a href="./pages/contacto.html">CONTACTO</a></li>
-            <li><a href="./pages/compras.html">COMPRAS</a></li>
-        </ul>
-    </nav>
-    <main class="principal">
-        <div>
-            <img class="imgPrincipal" src="https://i.ibb.co/tz028QQ/logo.jpg">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">DelOlivo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/ubicacion.html">UBICACION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/producto.html">PRODUCTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/compras.html">COMPRAS</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <h2 class="subtitulo">Nuestra Empresa</h2>
+      </nav>
+    <main class="d-flex flex-column align-items-center">
         <div>
-            <p class="descripcion">Fundada por la voluntad de productores olivícolas riojanos con más de 15 años de trayectoria y experiencia en la olivicultura regional, 
+            <img class="imgPrincipal mt-5 mb_5" src="https://i.ibb.co/tz028QQ/logo.jpg">
+        </div>
+        <h2 class="subtitulo m-2 mt-5 p-1">Nuestra Empresa</h2>
+        <div>
+            <p class="descripcion m-2 p-1">Fundada por la voluntad de productores olivícolas riojanos con más de 15 años de trayectoria y experiencia en la olivicultura regional, 
                 nace “DEL OLIVO” para ofrecer aceite de oliva de maxima calidad con un proceso industrial moderno y acorde a las más altas exigencias de los mercados 
                 nacionales e internacionales.</p>
         </div>
