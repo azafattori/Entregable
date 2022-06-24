@@ -29,15 +29,13 @@
     flex-direction: column;
     align-items: center;
 }
-.principal img{
+.imgPrincipal{
     width: 300px;
     border-radius: 20px;
     margin: 10px;
     border: 3px solid rgb(173, 143, 63);
-}
-.principal__desa{
-    position:fixed;
-    bottom: 30%;
+    margin-bottom: 100px;
+    margin-top: 30px;
 }
 .subtitulo{
     color: darkolivegreen;
@@ -154,9 +152,6 @@ footer{
     color: darkolivegreen;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
-}
-.formulario fieldset input{
-    width: 300px;
 }
 .introduccion{
     color: rgb(0, 0, 0);
