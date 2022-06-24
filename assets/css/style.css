@@ -140,6 +140,13 @@ footer{
     margin: 10px;
     padding: 5px;
 }
+.formulario fieldset input{
+    width: 300px;
+    transition: 1s;
+}
+.formulario fieldset input:focus{
+    width: 400px;
+}
 .formulario fieldset{
     padding: 5px;
 }
@@ -258,6 +265,19 @@ footer{
     border-radius: 10px;
     border: 2px solid rgb(173, 143, 63);
     margin: 10px;
+    transition: all 1s;
+}
+.img1:hover{
+    transform: translate(20px,10px) rotate(360deg);
+}
+.img2:hover{
+    transform: rotateX(360deg);
+}
+.img3:hover{
+    transform: rotateY(360deg);
+}
+.img4:hover{
+    transform: skew(10deg);
 }
 .pieDeFoto{
     font-size: 20px;
@@ -267,6 +287,7 @@ footer{
     border-radius: 10px;
     margin: 10px;
     padding: 5px;
+    transition: all 1s;
 }
 .comprar{
     color: darkolivegreen;
