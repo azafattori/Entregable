@@ -264,6 +264,19 @@ footer{
     border-radius: 10px;
     margin: 10px;
     padding: 5px;
+    transition: all 1s;
+}
+.img1:hover{
+    transform: translate(20px,10px) rotate(360deg);
+}
+.img2:hover{
+    transform: rotateX(360deg);
+}
+.img3:hover{
+    transform: rotateY(360deg);
+}
+.img4:hover{
+    transform: skew(10deg);
 }
 .comprar{
     color: darkolivegreen;
