@@ -10,7 +10,6 @@
 .imgPrincipal{
     width: 300px;
     border-radius: 20px;
-    margin: 10px;
     border: 3px solid rgb(173, 143, 63);
 }
 .subtitulo{
@@ -49,6 +48,7 @@
 }
 h1{
     color: black;
+    width: 100%;
     background-color: rgb(173, 143, 63);
     text-align: center;
     font-size: 200%;
@@ -61,14 +61,7 @@ nav{
     background-color: blanchedalmond;
     border-radius: 10px;
     border: 3px solid rgb(79, 99, 29);
-}
-nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-nav ul li{
-    padding: 10px;
+    width: 100%;
 }
 nav ul li a{
     color: darkolivegreen;
@@ -155,13 +148,6 @@ footer{
     background-color: blanchedalmond;
     border: 3px solid rgb(79, 99, 29);
     border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-}
-.ubiPosition{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .maps{
     width: 300px;
@@ -173,27 +159,10 @@ footer{
 .carrito{
     background-image: url(https://i.ibb.co/7t9Hvjk/branch-of-olive-with-fruits-and-flowers-hand-drawn-sketch-botanical-illustrations-decorative-set-vec.jpg);
     background-size: cover;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: "header header"
-                         "nav    nav"
-                         "main   main"
-                         "footer footer";
-}
-.encabezado{
-    grid-area: header;
-}
-.navegador{
-    grid-area: nav;
-}
-.contenido{
-    grid-area: main;
 }
 .footerCompras{
     bottom: 0%;
     position: relative;
-    grid-area: footer;
 }
 .envases{
     display: flex;
