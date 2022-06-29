@@ -95,7 +95,7 @@ footer{
     border-radius: 10px;
     padding: 5px;
     bottom: 0%;
-    position:fixed;
+    position:sticky;
     width: 100%;
 }
 .formPosition{
@@ -104,7 +104,7 @@ footer{
 }
 .formPosition__cont{
     position: fixed;
-    top: 50%;
+    top: 40%;
 }
 .formulario{
     background-color: blanchedalmond;
@@ -121,7 +121,10 @@ footer{
     transition: 1s;
 }
 .formulario fieldset input:focus{
+    outline: none;
     width: 400px;
+    border: 2px solid rgb(79, 99, 29);
+    border-radius: 10px;
 }
 .formulario fieldset{
     padding: 5px;
@@ -130,6 +133,10 @@ footer{
     color: darkolivegreen;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
+}
+.footerContacto{
+    position:fixed;
+    bottom: 0%;
 }
 .introduccion{
     color: rgb(0, 0, 0);
@@ -172,10 +179,6 @@ footer{
 .carrito{
     background-image: url(https://i.ibb.co/7t9Hvjk/branch-of-olive-with-fruits-and-flowers-hand-drawn-sketch-botanical-illustrations-decorative-set-vec.jpg);
     background-size: cover;
-}
-.footerCompras{
-    bottom: 0%;
-    position: relative;
 }
 .envases{
     display: flex;
