@@ -98,10 +98,6 @@ footer{
     position:sticky;
     width: 100%;
 }
-.formPosition{
-    display: flex;
-    justify-content: center;
-}
 .formPosition__cont{
     position: fixed;
     top: 40%;
