@@ -1,0 +1,52 @@
+.carrito{
+    background-image: url(https://i.ibb.co/7t9Hvjk/branch-of-olive-with-fruits-and-flowers-hand-drawn-sketch-botanical-illustrations-decorative-set-vec.jpg);
+    background-size: cover;
+}
+.tipo{
+    color: $colorPrimario;
+    font-size: 100%;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    img{
+        width: 250px;
+        height: 320px;
+        border-radius: 10px;
+        border: 2px solid $colorSecundario;
+        margin: 10px;
+        transition: all 1s;
+    }
+    .comprar{
+        color: $colorPrimario;
+        border: 2px solid $colorPrimario;
+        background-color: $colorTerciario;
+        width: max-content;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 5px;
+    }
+    .pieDeFoto{
+        font-size: 20px;
+        border: 4px solid $colorPrimario;
+        background-color: $colorTerciario;
+        width: max-content;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 5px;
+        transition: all 1s;
+    }
+    .img1:hover{
+        transform: translate(20px,10px) rotate(360deg);
+    }
+    .img2:hover{
+        transform: rotateX(360deg);
+    }
+    .img3:hover{
+        transform: rotateY(360deg);
+    }
+    .img4:hover{
+        transform: skew(10deg);
+    }
+}
+
+

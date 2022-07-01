@@ -1,0 +1,40 @@
+.contacto{
+    background-image: url(https://i.ibb.co/7t9Hvjk/branch-of-olive-with-fruits-and-flowers-hand-drawn-sketch-botanical-illustrations-decorative-set-vec.jpg);
+    background-size: cover;
+}
+.formPosition__cont{
+    position: fixed;
+    top: 40%;
+}
+.formulario{
+    background-color: $colorTerciario;
+    width: 600px;
+    height: auto;
+    text-align: center;
+    border: 5px solid $colorPrimario;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    fieldset{
+        padding: 5px;
+    }
+    fieldset input{
+        width: 300px;
+        transition: 1s;
+        &:focus{
+            outline: none;
+            width: 400px;
+            border: 2px solid $colorPrimario;
+            border-radius: 10px;
+        }
+    }
+    fieldset legend h2{
+        color: $colorPrimario;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 150%;
+    }
+}
+.footerContacto{
+    position:fixed;
+    bottom: 0%;
+}

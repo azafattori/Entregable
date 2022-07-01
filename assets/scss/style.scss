@@ -1,0 +1,24 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@import "variables.scss";
+@import "index.scss";
+@import "nav.scss";
+@import "footer.scss";
+@import "contacto.scss";
+@import "producto.scss";
+@import "ubicacion.scss";
+@import "compras.scss";
+
+h1{
+    color: black;
+    width: 100%;
+    background-color: $colorSecundario;
+    text-align: center;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 5px;
+}

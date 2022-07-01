@@ -1,0 +1,44 @@
+.index{
+    background-image: url(https://media.vogue.mx/photos/5ef8a63d7e00038f7ed115d9/master/w_3000,h_2001,c_limit/aceite-de-oliva--en-bowl.jpg);
+    background-size: cover;
+}
+.imgPrincipal{
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid $colorSecundario;
+}
+.subtitulo{
+    color: $colorPrimario;
+    background-color: $colorTerciario;
+    font-family: Arial, Helvetica, sans-serif;
+    width: max-content;
+    text-align: center;
+    font-size: 100;
+    font-weight: 400;
+    border: 3px solid $colorPrimario;
+    border-radius: 20px;
+}
+.descripcion{
+    color: $colorPrimario;
+    background-color: $colorTerciario;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: auto;
+    text-align: center;
+    font-size: 80;
+    border: 3px solid $colorPrimario;
+    border-radius: 20px;
+}
+.redes{
+    margin: 30px;
+    a img{
+        width: 80px;
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: white;
+        &:hover{
+            background-color: aqua;
+        }
+    }
+}
