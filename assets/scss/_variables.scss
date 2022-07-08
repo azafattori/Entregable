@@ -1,3 +1,10 @@
 $colorPrimario: rgb(79, 99, 29);
 $colorSecundario: rgb(173, 143, 63);
 $colorTerciario: blanchedalmond;
+$boton:(
+    bordes: 2px solid rgb(79, 99, 29),
+    ancho: max-content,
+    radio: 10px,
+    margen: 10px,
+    padding: 5px,
+);
