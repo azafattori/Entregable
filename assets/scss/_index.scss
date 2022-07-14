@@ -2,6 +2,17 @@
     background-image: url(https://media.vogue.mx/photos/5ef8a63d7e00038f7ed115d9/master/w_3000,h_2001,c_limit/aceite-de-oliva--en-bowl.jpg);
     background-size: cover;
 }
+h1{
+    color: black;
+    width: 100%;
+    background-color: $colorSecundario;
+    text-align: center;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 5px;
+}
 .imgPrincipal{
     width: 300px;
     border-radius: 20px;
