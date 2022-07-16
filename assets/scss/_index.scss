@@ -31,11 +31,11 @@ h1{
 }
 .descripcion{
     @extend .subtitulo;
-    width: 400px;
+    width: 800px;
     height: auto;
 }
 .redes{
-    margin-bottom: 20px;
+    margin: 20px;
     a img{
         width: 80px;
         border: 3px solid black;
