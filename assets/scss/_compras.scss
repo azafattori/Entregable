@@ -2,20 +2,24 @@
     background-image: url(https://i.ibb.co/7t9Hvjk/branch-of-olive-with-fruits-and-flowers-hand-drawn-sketch-botanical-illustrations-decorative-set-vec.jpg);
     background-size: cover;
 }
-@mixin propiedadesTipo ($tamañoLetra,$margen,$tipoLetra,$alignText) {
+@mixin propiedadesTipo ($tamañoLetra,$margen,$tipoLetra,$alignText,$bordes,$radio) {
     font-size: $tamañoLetra;
     margin: $margen;
     font-family: $tipoLetra;
     text-align: $alignText;
+    border: $bordes;
+    border-radius: $radio;
 }
 .tipo{
-    @include propiedadesTipo(100%,50px ,(Arial,Helvetica, sans-serif) ,center);
+    @include propiedadesTipo(100%,50px ,(Arial,Helvetica, sans-serif) ,center,3px solid $colorPrimario,10px);
     color: $colorPrimario;
+    background-color: $colorSecundario;
+    width: max-content;
     img{
         width: 250px;
         height: 320px;
         border-radius: 10px;
-        border: 2px solid $colorSecundario;
+        border: 2px solid $colorPrimario;
         margin: 10px;
         transition: all 1s;
     }
