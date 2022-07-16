@@ -39,7 +39,7 @@
     <main class="d-flex justify-content-center">
         <div class="mt-5">
             <form action="" class="formulario">
-                <fieldset>
+                <fieldset class="d-flex flex-column align-items-center">
                     <legend><h2>Inforcion Personal</h2></legend>
                     <input type="text" name="nombre" placeholder="Ingrese su nombre*" required>
                     <input type="text" name="apellido" placeholder="Ingrese su apellido*" required>
@@ -47,7 +47,6 @@
                     <input type="text" name="direccion" placeholder="Ingrese su direccion">
                     <input type="text" name="pais" placeholder="Ingrese Pais de origen*" required>
                     <input type="number" name="telefono" placeholder="Ingrese su telefono*" required>
-                    <br>
                     <label for="provincia">ESTADO/PROVINCIA*</label>
                     <select name="PROVINCIA*" id="provincia" required>
                         <option value="Buenos Aires">Buenos Aires</option>
@@ -74,9 +73,7 @@
                         <option value="tierra del fuego">Tierra del Fuego</option>
                         <option value="tucuman">Tucuman</option>
                     </select>
-                    <br>
                     <textarea name="mensaje" placeholder="Ingrese un mensaje*" required></textarea>
-                    <br>
                     <input class="enviar" type="submit">
                 </fieldset>
             </form>
